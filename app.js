@@ -1,3 +1,5 @@
 import double from './double.js';
 
-console.log(double(21));
+let result = double(21);
+let output = document.getElementById('output');
+output.textContent = result;
